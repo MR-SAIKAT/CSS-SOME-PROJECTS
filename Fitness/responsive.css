@@ -1,0 +1,334 @@
+/* responsive for Medium Device */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  #header-area {
+    width: 95%;
+  }
+  #banner-area {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .banner-content {
+    width: 90%;
+  }
+  .banner-content h1 {
+    font-size: 6em;
+  }
+  #button {
+    font-size: 1em;
+    padding: 1em 3em;
+  }
+  .banner-image {
+    display: flex;
+    justify-content: center;
+    top: 6em;
+    margin-bottom: 5em;
+  }
+  .video {
+    width: 160px;
+    padding: 0.8em 0.7em;
+  }
+  .video p {
+    font-size: 0.9em;
+  }
+  .tutorial {
+    top: 65%;
+    left: 15%;
+  }
+  .tutorial .circle {
+    width: 25px;
+    height: 25px;
+  }
+  .tutorial span {
+    font-size: 1.7em;
+  }
+  .workout {
+    top: 15%;
+    right: 23%;
+  }
+  .workout span {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .run-habite {
+    width: 90%;
+  }
+  .habits .content {
+    width: 476px;
+  }
+  .habits .content p {
+    font-size: 0.9em;
+  }
+  .habits .img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+  }
+  .habite-text {
+    width: 263px;
+  }
+  .habite-text h2 {
+    font-size: 2em;
+  }
+  .habite-text p {
+    font-size: 0.9em;
+  }
+  .habite-text #button {
+    width: 80%;
+  }
+  .habite-image img {
+    width: 226px;
+    height: 300px;
+    border-radius: 0.5em;
+    object-fit: cover;
+  }
+  .exericies {
+    width: 90%;
+  }
+  .exe-content {
+    width: 95%;
+  }
+  .exe-content h2 {
+    font-size: 3em;
+  }
+  .bmi {
+    width: 90%;
+  }
+  .bmi h2 {
+    font-size: 3em;
+  }
+  .claculator {
+    width: 90%;
+    flex-direction: column;
+  }
+  .tabel,
+  th,
+  td {
+    margin: 2em 0;
+  }
+  .meet-out-team {
+    width: 90%;
+    margin: 0 auto 5em;
+  }
+  .team-content {
+    width: 80%;
+  }
+  .team-content h2 {
+    font-size: 2em;
+  }
+  .footer-content {
+    width: 90%;
+  }
+}
+/* responsive for Small Device */
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+  #header-area {
+    width: 95%;
+  }
+  .nav-bar ul {
+    display: none;
+  }
+  .nav-bar .bx {
+    display: block;
+    color: #ddd;
+    font-size: 1.5em;
+  }
+  #banner-area {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .banner-content {
+    width: 90%;
+    top: 2em;
+  }
+  .banner-content h1 {
+    font-size: 3em;
+  }
+  .banner-content p {
+    font-size: 0.9em;
+  }
+  #button {
+    font-size: 0.5em;
+    padding: 0.8em 2em;
+  }
+  .banner-image {
+    display: flex;
+    justify-content: center;
+    top: 4em;
+    margin-bottom: 0em;
+  }
+  .video {
+    width: 140px;
+    padding: 0.8em 0.7em;
+  }
+  .video p {
+    font-size: 0.7em;
+  }
+  .tutorial {
+    top: 50%;
+    left: 0%;
+  }
+  .tutorial .circle {
+    width: 25px;
+    height: 25px;
+  }
+  .tutorial span {
+    font-size: 1.7em;
+  }
+  .workout {
+    top: 15%;
+    right: 0%;
+  }
+  .workout span {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .habits {
+    margin-bottom: 2em;
+  }
+  .habits .content {
+    width: 316px;
+  }
+  .habits .content h2 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .habits .content p {
+    font-size: 0.9em;
+  }
+  .habits .img {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3em;
+  }
+  .habits .img h3 {
+    font-size: 0.8em;
+  }
+  .run-habite {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  .habite-text {
+    width: 263px;
+  }
+  .habite-text h2 {
+    font-size: 2em;
+  }
+  .habite-text p {
+    font-size: 0.9em;
+  }
+  .habite-text #button {
+    width: 70%;
+  }
+  .habite-image img {
+    width: 287px;
+    height: 170px;
+    border-radius: 0.5em;
+    object-fit: cover;
+  }
+  .exericies {
+    width: 90%;
+    margin-bottom: 2em;
+  }
+  .exe-content {
+    width: 95%;
+  }
+  .exe-content h2 {
+    font-size: 2em;
+  }
+  .exe-content p {
+    font-size: 0.9em;
+  }
+  .exe-images {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .exe-images .image-two {
+    grid-column: 3/5;
+  }
+  .exe-images .image-three {
+    display: none;
+  }
+  .exe-images .image-four {
+    grid-column: 1/3;
+    background-position: center;
+  }
+  .image-four .four p {
+    display: none;
+  }
+  .exe-images .image-five {
+    grid-column: 3/6;
+    background-position: center;
+  }
+  .exe-images .image-six {
+    display: none;
+  }
+  .bmi {
+    width: 90%;
+    margin-bottom: 0.5em;
+  }
+  .bmi h2 {
+    font-size: 2em;
+  }
+  .bmi p {
+    font-size: 0.9em;
+  }
+  .claculator {
+    width: 90%;
+    flex-direction: column;
+  }
+  .calculate-chart {
+    width: 100%;
+  }
+  .calculate-chart h3 {
+    font-size: 1em;
+  }
+  .tabel {
+    width: 90%;
+    margin: 2em 0;
+  }
+  .calculate-bmi h3 {
+    font-size: 1em;
+  }
+  .calculate-bmi p {
+    font-size: 0.9em;
+  }
+  #form {
+    grid-template-columns: repeat(2, 160px);
+  }
+  .calculate-bmi #button {
+    width: 50%;
+  }
+  .meet-out-team {
+    width: 90%;
+    margin: 0 auto 3em;
+  }
+  .team-content {
+    width: 80%;
+  }
+  .team-content h2 {
+    font-size: 2em;
+  }
+  .team-images {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+  .footer-content {
+    width: 90%;
+    display: grid;
+    padding-bottom: 2em;
+  }
+  .copywrite {
+    width: 90%;
+    padding: 1em 0;
+  }
+}

@@ -1,0 +1,309 @@
+/* responsive for Medium Device */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    width: 100%;
+  }
+  nav ul {
+    display: none;
+  }
+  .list {
+    display: block;
+  }
+  .hero-content h2 {
+    font-size: 2em;
+  }
+  .hero-content p {
+    line-height: 1.5em;
+  }
+  .aboutUs {
+    width: 90%;
+    flex-direction: column;
+  }
+  .aboutUs-text {
+    align-items: center;
+  }
+  .about-text-one {
+    font-size: 2em;
+    text-align: center;
+  }
+  .about-text-two {
+    text-align: center;
+  }
+  .commercial-residential {
+    flex-direction: row;
+  }
+  .reating {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+  .work-process-area {
+    width: 90%;
+  }
+  .work-process-text {
+    width: 85%;
+  }
+  .work-process-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .different-area {
+    width: 90%;
+  }
+  .area-text {
+    width: 85%;
+  }
+  .first-section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .image-two-another {
+    display: block;
+  }
+  .image-two-another img {
+    width: 330px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .last-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .img-commercial-two {
+    grid-column: 1/3;
+    order: -1;
+  }
+  .img-commercial-two .content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+  }
+  .image-three img,
+  .image-five img {
+    width: 330px;
+    height: 180px;
+  }
+  .articles-area {
+    width: 90%;
+  }
+  .articles-content {
+    width: 70%;
+  }
+  .article-card {
+    flex-direction: column;
+  }
+  .one-card,
+  .two-card,
+  .three-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 0.7em;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  .lets-discuss {
+    width: 80%;
+  }
+  .lets-discuss-text {
+    width: 80%;
+  }
+  #lets-discuss-form {
+    grid-template-columns: repeat(2, 327px);
+  }
+  .footer-contents {
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 3em 0;
+  }
+}
+
+/* responsive for Small Device */
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 767px;
+    width: 100%;
+  }
+  nav ul {
+    display: none;
+  }
+  .search,
+  .card,
+  .book-consult {
+    display: none;
+  }
+  .list {
+    display: block;
+  }
+  .hero-area {
+    width: 90%;
+    padding: 1em 0 1.5em;
+  }
+  .hero-bg {
+    width: 261px;
+    height: 160px;
+    background-position: 100%;
+    background-size: contain;
+  }
+  .hero-content h2 {
+    font-size: 2em;
+  }
+  .hero-content p {
+    line-height: 1.5em;
+  }
+  .aboutUs {
+    width: 90%;
+    padding: 1em 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutUs-text {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .about-text-one {
+    font-size: 24px;
+    text-align: center;
+  }
+  .about-text-two {
+    text-align: center;
+  }
+  .commercial-residential {
+    flex-direction: column;
+  }
+  .aboutUs-img img {
+    width: 335px;
+    height: 223px;
+  }
+  .reating {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+  .work-process-area {
+    width: 90%;
+  }
+  .work-process-text {
+    width: 90%;
+  }
+  .work-process-card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .different-area {
+    width: 90%;
+  }
+  .area-text {
+    width: 90%;
+  }
+  .first-section {
+    grid-template-columns: 1fr;
+  }
+  .img-commercial {
+    grid-column: 1/2;
+    flex-direction: column;
+    align-items: start;
+  }
+  .img-commercial img {
+    width: 100%;
+    padding: 10px;
+  }
+  .content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    padding: 10px;
+    gap: 1em;
+  }
+  .image-two-another{
+    display: block;
+  }
+  .image-two-another img {
+    width: 100%;
+    padding: 10px;
+  }
+  .last-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  .img-commercial-two {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8em;
+  }
+  .img-commercial-two img {
+    width: 100%;
+    padding: 10px;
+  }
+  .img-commercial-two .content-two {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+  }
+  .image-two img,
+  .image-three img,
+  .image-five img {
+    width: 100%;
+    padding: 10px;
+  }
+  .articles-area {
+    width: 90%;
+  }
+  .articles-content {
+    width: 90%;
+  }
+  .article-card {
+    flex-direction: column;
+  }
+  .lets-discuss {
+    width: 90%;
+  }
+  .lets-discuss-text {
+    width: 90%;
+    line-height: 1.2;
+  }
+  .lets-discuss-text h2 {
+    text-align: center;
+  }
+  #lets-discuss-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-contents {
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 3em 0;
+  }
+  .footer-contents ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-contents .book-consult {
+    display: flex;
+    gap: 3px;
+  }
+}
